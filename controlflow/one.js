@@ -9,13 +9,23 @@ myMap.set("IsLogedIn:", true)
 
 const myArr = [2,3,4,5,6,7]
 
+const myArrStr = ['name', "user", "email", "tony", "bruse", "natasha", "thor"]
+
 const myObj = {
     username: "obj_Devansh",
     email: "Devansh@gmail.com",
     password: "sdfasdfas",
-    isLogedIn: false
+    isLogedIn: false,
 }
 
-for (const key of myMap) {
-    console.log(Object.keys[key])
+
+for (const [key, value] of myMap) {   
+    console.log(myMap);
+    // console.log(`${key}, '=>' ${value}`)
 }
+
+
+// for (const key in myMap) {
+//    console.log(myMap);
+   
+// }
