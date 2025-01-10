@@ -1,3 +1,3 @@
-const data = 5
+ const data = 5
 print(data)
 console.log("Devansh")
